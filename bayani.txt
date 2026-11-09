@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+
+    int a,b, sum;
+    std::cout << "Enter First Number: "<< endl;
+    std::cin >> a;
+    std::cout << "Enter Second Number: " << endl;
+    std::cin >> b;
+    std::cout << "The sum of a and b is: "<<a+b<< endl;
+    std::cout << "The sum of A and B multiplied to 2 is: "<<(a+b)*2 <<endl;
+
+    return 0;
+
+}
